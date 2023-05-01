@@ -1,5 +1,3 @@
-# TelepathyCodeTest
-
 Steps how to run the program:
 
 2 ways to run the program:
@@ -16,29 +14,27 @@ ex- Maven>>update project
 After builds successful right click on project select Run as and select  Run configurations
 
 
-select java application go to (x)=Arguments sections under program arguments give the path of txt file (ex- D:\telepathy\meetingproblem\meetings.txt
+select java application go to (x)=Arguments sections under program arguments give the path of txt file (ex- D:\telepathy\planfinder\plans.txt
 
- ex-Run as >> Run configurations>> java application >> x)=Arguments >> program arguments >> location of the meetings.txt file
+ ex-Run as >> Run configurations>> java application >> x)=Arguments >> program arguments >> location of the meetings.txt file with plans.
+ 
+ (ex-D:\telepathy\planfinder\plans.txt email,voice,admin) 
  
  click on apply  
  
  click on run button.
  output would be display in console
  
- if wanted to test other parameter then update in meetings.txt save the file then open the RoomTest.java  and right click Run as >> java application
+ if wanted to test other parameter then update in plans.txt save the file then open the PlanFinderTest.java  and right click Run as >> java application
  output would be display in console
   
  
  example-1
-in meetings.txt
-
-09:00-10:00
-10:00-11:00
  
- 
-Example2
-09:00-10:00
-09:30-11:00
+PLAN1,100,voice,email
+PLAN2,150,email,database,admin
+PLAN3,125,voice,admin
+PLAN4,135,database,admin
 
 
 Option-2
@@ -50,5 +46,3 @@ mvn clean install
 once above command run successfully and it generates jar file.
 to start the applications run the below command
 java -cp target\planfinder-0.0.1-SNAPSHOT.jar planfinder.PlanFinderTest "Fully Qualified path for example-D:\telepathy\planfinder\plans.txt" email, voice, admin
-
- 
