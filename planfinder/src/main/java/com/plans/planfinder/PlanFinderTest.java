@@ -23,7 +23,7 @@ public class PlanFinderTest {
 		//FileReader fileReader = new FileReader(new File("plans.txt"));
 		//Scanner scanner = new Scanner(new File("plans.txt"));// Take this file name from Args
 		Scanner scanner = new Scanner(fileReader);// Take this file name from Args
-		Scanner console = new Scanner(System.in);
+		//Scanner console = new Scanner(System.in);
 		 
 		List<Plan> plans = new ArrayList<>();
 		while(scanner.hasNext()) {
