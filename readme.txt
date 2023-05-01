@@ -1,5 +1,3 @@
-# TelepathyCodeTest
-
 Steps how to run the program:
 
 2 ways to run the program:
@@ -50,5 +48,3 @@ mvn clean install
 once above command run successfully and it generates jar file.
 to start the applications run the below command
 java -cp target\planfinder-0.0.1-SNAPSHOT.jar planfinder.PlanFinderTest "Fully Qualified path for example-D:\telepathy\planfinder\plans.txt" email, voice, admin
-
- 
